@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+  background: rgb(9,79,121);
+  background: linear-gradient(90deg, rgba(17, 92, 138, 0.407) 36%, rgba(0, 213, 255, 0.413) 100%);
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+
+}
+
+.Appcontainer{
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.298);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  
+}
+.img-Box{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: orange;
+}
+input{
+  border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .button-city{
+    font-size: 12px;
+    margin-right: 10px;
+    display: block;
+    line-height: 12px;
+    width: 100%;
+    
+
+  }
+  .icons{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .input-container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  .detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .FaCe{
+    position: absolute;
+   bottom: 3%;
+    right: -35%;
+  }
+  .icon{
+    margin-right: 20px;
+
+  }
+  .input-container{
+    width: 100%;
+  }
+  .input-box input{
+   width: 250px;
+  }
+  .input-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
